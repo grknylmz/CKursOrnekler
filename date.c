@@ -16,6 +16,8 @@ PRIVATE const int dtab[2][13]={
 }
 
 
+PRIVATE int totalDate(const Date *p);
+
 
 PUBLIC Date *setDate(Date * , int d , int m , int y){
 	return set(p,d,m,y);
@@ -59,4 +61,13 @@ PRIVATE Date *set(Date*p,int d, int m , int y){
 
 PRIVATE int isValidDate(int d,int m,int y){
 	return y >= YTAB && m > 0 && m<=12 && d>0 && d<=mtab[isleap[y][m]];
+}
+
+
+PRIVATE int totalDate(const Date *p){
+	int dayCount = 0;
+	int k;
+	
+	
+	return dayCount;
 }

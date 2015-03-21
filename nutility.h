@@ -1,7 +1,7 @@
 
 #ifndef _NUTILITY_H_
 #define _NUTILITY_H_
-
+#define asize(a) 	(sizeof((a));
 #include <stddef.h>
 
 int isprime(int ival);
