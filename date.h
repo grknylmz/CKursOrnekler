@@ -22,7 +22,8 @@
 
 
 typedef struct _Date{
-	void *vp;
+	int md,mm,my;
+
 }Date;
 
 
@@ -46,5 +47,24 @@ Date *setMonthDay(Date *p,int mday);
 int getYear(const Date *p);
 int getMonth(const Date *p);
 int getMonthDay(const Date *p);
+///////////////////////////////
+int cmpDate (const Date *p1,const Date *p2);
+Date *nDays(Date *pd , const Date *ps , int n);
+int dateDiff(const Date *p1, const Date *p2);
+////////////////////////////////
+int isWeekend(const Date *p);
+//////////////////////////////
+void displayDate(const Date *p);
+Date *scanDate(Date *p);
+
+
+
+
+
+
+
+
+
+
 
 #endif
