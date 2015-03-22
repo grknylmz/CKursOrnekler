@@ -3820,6 +3820,13 @@ int main(){
 
 LINKED LISTS
 
+///Vektör konum bilgisi ile sabit zamanda erişilir.
+/// Bağlı listede konumu bilinen herhangi bir yere ekleme silme yapmak çok daha kolay O(n) karmaşıklığında
+Splice bi yerden alıp başka bir yere koymak
+Dugumun icine hem onundeki elemanın hem sonrasındaki elemanın pointerlarini koymak diğer elemanlara ulaşmayı kolaylastırır.
+İkili arama agacında sıralı yerleştirilmesi karmaşıklığın log(n) olmasına olanak verir.
+
+
 struct Node{
 		int val;
 		struct Node *ptr;
