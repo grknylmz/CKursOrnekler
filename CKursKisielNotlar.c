@@ -3836,6 +3836,8 @@ struct Node{
 
 
 
+Interface de birkaç listeyi tutmak için yeni bir yapı oluşturulacak o listeler içine atılacak.
+
 
 
 

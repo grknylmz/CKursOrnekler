@@ -1,4 +1,9 @@
 #pragma pack(1)
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <conio.h>
+#include "nutility.h"
 
 
 
@@ -14,5 +19,12 @@ int main(){
 	
 	
 	printf("listede %d kadar ogrenci var" , getSize());
+	
+	
+	
+	while(!isempty()){
+		displayList();
+		
+	}
 
 }

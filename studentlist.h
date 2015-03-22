@@ -6,8 +6,9 @@ void displayList(void);
 void pushFront(const Student *p);
 void popFront(void);
 void front(Student *ptr);
- int isempty(void);
- 
+ int isEmpty(void);
+ int getSize(void);
+ void makeEmpty();
 
 
 
