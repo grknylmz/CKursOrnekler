@@ -3818,6 +3818,13 @@ int main(){
 	
 }
 
+LINKED LISTS
+
+struct Node{
+		int val;
+		struct Node *ptr;
+		
+};
 
 
 
