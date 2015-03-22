@@ -3793,10 +3793,28 @@ int main(){
 }
 
 
+#include "student.h"
 
 
+typdef (int (*FCMP) (const void*,const void*);
 int main(){
 	
+	Studen a[SIZE];
+	int k;
+	
+	randomize();
+	
+	for(k= 0 , k<SIZE, k++){
+		setRandomStudent(a+k);
+		
+	}
+	
+	for(;;){
+		for(k=0;k<SIZE;k++)
+			displayStudent(a+k);
+		getchar();
+		qsort(a,SIZE,sizeof(Student),( (int (*) (const void*,const void*)&cmpStudent1));
+	}
 	
 }
 
