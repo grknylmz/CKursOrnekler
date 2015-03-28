@@ -3841,8 +3841,25 @@ Interface de birkaç listeyi tutmak için yeni bir yapı oluşturulacak o listel
 
 
 
+typedef struct{
+	char c1;
+	int x;
+	char c2;
+	
+	
+}Data;
 
 
+int main(){
+	
+	
+}
+
+
+ENUMARATION
+
+enum  Color { White, Red,Blue,Gray,Brown,Black };
+enum Suit {Club , Diamond , Heart , Spade}
 
 
 
