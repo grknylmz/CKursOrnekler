@@ -3858,8 +3858,118 @@ int main(){
 
 ENUMARATION
 
-enum  Color { White, Red,Blue,Gray,Brown,Black };
-enum Suit {Club , Diamond , Heart , Spade}
+enum  Color { White, Red , Ispati = 0 , Trefl  = 0 ,Blue,Gray,Brown,Black };
+enum Suit {Club , Diamond , Heart , Spade};
+
+typedef enum { White, Red  = 345 ,Blue,Gray = -45 ,Brown,Black } Color;
+typedef enum  {Club , Diamond , Heart , Spade}Suit;
+
+
+typedef struct{
+	Suit s;
+	Face f;
+}Card;
+
+
+int main(){
+	enum Suit s = Diamond;
+	enum Color myColor = Brown;
+
+	Suit s;
+	
+	switch (s){
+		case Club: ////
+		case Diamond : /////
+	}
+	
+	
+}
+
+
+Bu ifadeler constant expression olarak kullanılabilir.
+
+
+typedef enum { White,Gray,Blue,Brown,};
+
+
+
+
+int main(){
+	Card c = {Diamond , Ace};
+}
+
+Bitsel İşlemler
+
+2 ~
+
+5 << 	>>
+
+8 &
+
+9 ^
+
+14 >>= 	<<= 	&=	 ^= 	|=
+
+
+
+
+int main(){
+	
+	int x;
+	
+	printf("Bir sayi girin : ");
+	scanf("%d " ,&x );
+	
+	bprint(x);
+}
+
+
+
+
+Bitsel değil operatörü : 
+~ Tilda
+~ x  /// Bitsel değilini verir;
+Atama yapmaz
+
+x = ~x;  // X in degerini kendisinin degiline atamak
+
+<< >> bitwise shift
+bitwise right shift
+bitwise left shift  makina komutuna karşılık gelir
+
+
+bitleri kaydırılcak sayı ve kaç tane öteleme yapılacak 
+
+
+1111 1111 << 1111 1100 //2 bit kaydır.
+
+Sağ operand negatif olamaz. Syntax hatası degil aksine tanımsız davranış.
+
+
+
+
+
+
+
+
+int main(){
+	int x = 1;
+	
+	while(x){
+		bprint(x);
+		x<<=1;
+		
+	}
+	
+}
+Sola bir kaydırma tamsayılar için 2 ile çarpma anlamına gelir.
+
+x >> n
+
+
+
+
+
 
 
 
