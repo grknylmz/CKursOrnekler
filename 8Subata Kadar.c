@@ -89,7 +89,7 @@ void delay(double sec)
 
 
 
-                          İMPLEMENTASYON DOSYASININ SONU
+                          ÃMPLEMENTASYON DOSYASININ SONU
 								       nutilitiy.c
 ///////////////////////////////////////////////////
 ///////////////////////////////////////////////////
@@ -114,7 +114,7 @@ void delay(double sec);
 
 
 #endif
-                                    BAŞLIK DOSYASININ SONU
+                                    BAÃLIK DOSYASININ SONU
 									     nutility.h
 ///////////////////////////////////////////////////
 ///////////////////////////////////////////////////
@@ -1153,7 +1153,7 @@ int main()
 ---------------------------------------------------------------------------------------------
 1            ()   [ ]   .    ->
 ---------------------------------------------------------------------------------------------
-2            ++ --  - +  ! ~  (type)  sizeof  * &                            sağdan sola
+2            ++ --  - +  ! ~  (type)  sizeof  * &                            saÃ°dan sola
 ---------------------------------------------------------------------------------------------
 3            *    /    %
 ---------------------------------------------------------------------------------------------
@@ -1175,9 +1175,9 @@ int main()
 ---------------------------------------------------------------------------------------------
 12          ||
 ---------------------------------------------------------------------------------------------
-13          ?      :                                                       sağdan sola
+13          ?      :                                                       saÃ°dan sola
 ---------------------------------------------------------------------------------------------
-14			=   +=  -=  *=  /=   %=  &=  |=  ^=  >>=   <<=                 sağdan sola
+14			=   +=  -=  *=  /=   %=  &=  |=  ^=  >>=   <<=                 saÃ°dan sola
 ---------------------------------------------------------------------------------------------
 15          ,
 ---------------------------------------------------------------------------------------------
@@ -1586,11 +1586,11 @@ int main()
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
-ödev - 1
+Ã¶dev - 1
 
-C'de lojik düzeyde özel veya operatörü yoktur.
-Lojik özel veya görevini üstlenecek ifadeler oluşturmaya çalışın.
-Oluşturduğunuz ifadeler tüm durumlar için doğru olmalıdır:
+C'de lojik dÃ¼zeyde Ã¶zel veya operatÃ¶rÃ¼ yoktur.
+Lojik Ã¶zel veya gÃ¶revini Ã¼stlenecek ifadeler oluÃ¾turmaya Ã§alÃ½Ã¾Ã½n.
+OluÃ¾turduÃ°unuz ifadeler tÃ¼m durumlar iÃ§in doÃ°ru olmalÃ½dÃ½r:
 
 D  exor   D  ------>   Y
 D  exor   Y  ------>   D
@@ -1896,7 +1896,7 @@ int main()
 	int x = 10;
 	int y;
 
-	y = ++x + x;  //tanımsız davranış
+	y = ++x + x;  //tanÃ½msÃ½z davranÃ½Ã¾
 
 	printf("y = %d\n", y);
 
@@ -1913,7 +1913,7 @@ int main()
 	int x = 10;
 	int y = 20, z;
 
-	if (y++ > ++x)   //yan etki noktası
+	if (y++ > ++x)   //yan etki noktasÃ½
 		z = x + y;
 
 	printf("z = %d\n", z);
@@ -3094,7 +3094,7 @@ int main()
 #include <stdlib.h>
 #include <math.h>
 
-//hasan gül
+//hasan gÃ¼l
 int main()
 {
 	int a, b, c;
@@ -4571,9 +4571,9 @@ int main()
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ödev 
-içi boş kare yıldızlarla anlarsın ya....
-bir de köşegen olayi işteee
+Ã¶dev 
+iÃ§i boÃ¾ kare yÃ½ldÃ½zlarla anlarsÃ½n ya....
+bir de kÃ¶Ã¾egen olayi iÃ¾teee
 
 #define  _CRT_SECURE_NO_WARNINGS
 
@@ -6835,7 +6835,7 @@ int main()
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ODEV
-Asagidaki dizinin en büyük altdizi toplamını bulan bir kod yazın
+Asagidaki dizinin en bÃ¼yÃ¼k altdizi toplamÃ½nÃ½ bulan bir kod yazÃ½n
 (maximum subsequence problem)
 
 #define		SIZE		100
@@ -6904,7 +6904,7 @@ int main()
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ÖDEV
+Ã–DEV
 
 int a[SIZE] = {7345, 7753, 5148, 9008, 1588, 9544, 3667, 3121, 2313, 7245, 9644, 7996, 7258, 9573, 1858, 5710, 8752, 2055, 9184, 3324,};
 
@@ -6947,8 +6947,8 @@ int main()
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ÖDEV.....
-a dizisinin öğelerinin değerlerinden bir histogram oluşturulacak
+Ã–DEV.....
+a dizisinin Ã¶Ã°elerinin deÃ°erlerinden bir histogram oluÃ¾turulacak
 
 #include <stdio.h>
 #include <time.h>
@@ -6977,7 +6977,7 @@ int main()
 	printf("\n\n");
 
 	return 0;
-}//asagidaki sekil 90 derece saat yönünün tersi yönde çevrilmiş olacak
+}//asagidaki sekil 90 derece saat yÃ¶nÃ¼nÃ¼n tersi yÃ¶nde Ã§evrilmiÃ¾ olacak
 
 *******
 **********
@@ -7001,7 +7001,7 @@ int main()
 
 #define			SIZE		100
 
-//binary search algoritması
+//binary search algoritmasÃ½
 
 int main()
 {
@@ -8273,7 +8273,7 @@ int main()
 	printf("bir yazi girin : ");
 	gets(s);
 	/*****    kod    **///
-	//yazı unique hale getirilecek
+	//yazÃ½ unique hale getirilecek
 	// 111555544478882882299000
 	//  1547828290
 
@@ -8292,7 +8292,7 @@ int main()
 {
 	char s[SIZE];
 
-	printf("iki sozcuk girin: "); //sozcukler arasında tek karakter bosluk var
+	printf("iki sozcuk girin: "); //sozcukler arasÃ½nda tek karakter bosluk var
 	gets(s);
 	printf("(%s)\n", s);
 	/* kod    */
@@ -8825,9 +8825,9 @@ int main()
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Bir adres ile bir tamsayıyı toplamak
-bir tamsayı ile bir adresi toplamak
-bir adresten bir tamsayı çıkarmak
+Bir adres ile bir tamsayÃ½yÃ½ toplamak
+bir tamsayÃ½ ile bir adresi toplamak
+bir adresten bir tamsayÃ½ Ã§Ã½karmak
 
 
 #include <stdio.h>
@@ -9640,7 +9640,7 @@ int main()
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
-24.01.2015 CUMARTESİ
+24.01.2015 CUMARTESÃ
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -9830,7 +9830,7 @@ char *func()
 {
 	char str[1000];
 
-	printf("bir yazi girinİz: ");
+	printf("bir yazi girinÃz: ");
 	gets(str);
 	return str;
 }
@@ -10363,10 +10363,10 @@ int main()
 	int *ptr;
 	
 	////
-	if (ptr != NULL)  //ptr bir nesneyi gösteriyor ise
+	if (ptr != NULL)  //ptr bir nesneyi gÃ¶steriyor ise
 		;///
 
-	if (ptr == NULL)  //ptr hiçbir nesneyi göstermiyor ise
+	if (ptr == NULL)  //ptr hiÃ§bir nesneyi gÃ¶stermiyor ise
 		;///
 	return 0;
 }
@@ -10755,7 +10755,7 @@ int main()
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-31.01.2015 CUMARTESİ
+31.01.2015 CUMARTESÃ
 
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -10861,7 +10861,7 @@ int main()
 	int *const ptr = &x;
 
 	*ptr = 567;
-	ptr = &y;  //gecersiz ptr değeri değişmeyecek bir nesne (ptr is a const pointer)
+	ptr = &y;  //gecersiz ptr deÃ°eri deÃ°iÃ¾meyecek bir nesne (ptr is a const pointer)
 
 
 	return 0;
@@ -12137,7 +12137,7 @@ int main()
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-07.02.2015 CUMARTESİ
+07.02.2015 CUMARTESÃ
 
 #define _CRT_SECURE_NO_WARNINGS
 
@@ -12281,7 +12281,7 @@ int main()
 int main()
 {
 	int x = 10;
-	int *p[10] = {&x};  //diger ogeler NULL adresi değerinde
+	int *p[10] = {&x};  //diger ogeler NULL adresi deÃ°erinde
 
 	return 0;
 }
@@ -12298,7 +12298,7 @@ int *ptr;  // ptr hayata NULL adresi ile baslar
 int main()
 {
 	int x = 10;
-	int *p[10] = {&x};  //diger ogeler NULL adresi değerinde
+	int *p[10] = {&x};  //diger ogeler NULL adresi deÃ°erinde
 
 	return 0;
 }
@@ -12936,7 +12936,7 @@ int main()
 }
 
 ----------------------------------------------------------------------------------------------------
-ifade              türü                     nesne mi?
+ifade              tÃ¼rÃ¼                     nesne mi?
 ----------------------------------------------------------------------------------------------------
 x				   int						evet
 ----------------------------------------------------------------------------------------------------
@@ -12946,7 +12946,7 @@ ptr				   int *					evet
 ----------------------------------------------------------------------------------------------------
 *ptr			   int						evet
 ----------------------------------------------------------------------------------------------------
-&ptr			   int **				    hayır
+&ptr			   int **				    hayÃ½r
 ----------------------------------------------------------------------------------------------------
 p				   int **					evet
 ----------------------------------------------------------------------------------------------------
@@ -12954,7 +12954,7 @@ p				   int **					evet
 ----------------------------------------------------------------------------------------------------
 **p				   int						evet
 ----------------------------------------------------------------------------------------------------
-&p				   int ***					hayır
+&p				   int ***					hayÃ½r
 
 08.02.2015	PAZAR
 
